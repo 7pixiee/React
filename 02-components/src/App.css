@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+     display: flex;
+     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.card {
+    background-color: rgb(154, 94, 210);
+    height: 300px;
+    width: 200px;
+}
+.navbar {
+    background-color: rgb(207, 86, 86);
+    height: 50px;
+    width: 300px;
+    color: aliceblue;
+}
