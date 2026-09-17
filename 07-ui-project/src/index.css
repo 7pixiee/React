@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+#rightContent::-webkit-scrollbar {
+   display: none;
+}
+
+#rightContent .cards-track{
+    animation: scrollHorizontal 15s linear infinite;
+}
+
+@keyframes scrollHorizontal {
+    0% {
+        transform: translate(0);
+    }
+    100% {
+        transform: translate(-50%);
+    }
+}
+
+#rightContent .cards-track:hover {
+    animation-play-state: paused;
+}
