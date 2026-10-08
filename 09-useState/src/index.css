@@ -1,0 +1,41 @@
+body {
+  background-color: #111;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+}
+
+.page1 {
+   text-align: center;
+   height: 100vh;
+}
+.page2 {
+ height: 100vh;
+ text-align: center;
+ padding-top: 20px;
+}
+
+
+.count {
+background-color: aliceblue;
+color: #111;
+  font-size: 60px;
+}
+
+button {
+  font-size: larger;
+  padding: 10px;
+  border: none;
+
+  margin: 10px;
+  background-color: aquamarine;
+  border-radius: 5px;
+}
+
+.restart {
+  padding: 15px;
+  font-weight: bold;
+  
+  background-color: aliceblue;
+  border-radius: 50%;
+}
