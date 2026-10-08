@@ -1,0 +1,26 @@
+body {
+  background-color: black;
+  color: rgb(215, 215, 215);
+}
+
+button {
+  padding: 5px;
+  border-radius: 7px;
+}
+
+.page1 {
+    height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.page2 {
+ height: 100vh;
+ background-color: gray;
+}
+
+.page3 {
+    height: 100vh;
+    background-color: pink;
+}
